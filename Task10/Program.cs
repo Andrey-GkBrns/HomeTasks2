@@ -4,4 +4,4 @@ Console.Write("Введите трёхзначное число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = a % 100;
 int c = b / 10;
-Console.WriteLine($"Вторая цифра здесь: {c}");
+Console.Write($"Вторая цифра здесь: {c}");
