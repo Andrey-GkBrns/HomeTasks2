@@ -1,4 +1,4 @@
-﻿// Прогорамма для определения количества чётных чисел в случайном массиве.
+﻿// Программа для определения количества чётных чисел в случайном массиве.
 
 void EnterArr(int[] arr)
 {for (int Y = 0; Y < arr.Length; Y++)
@@ -11,7 +11,7 @@ foreach(int number in arr)
 count++;}
 return count;}
 
-//Console.Clear();
+Console.Clear();
 Console.Write("Введите количество элементов массива: ");
 int X = Convert.ToInt32(Console.ReadLine());
 int[] arr = new int[X];
